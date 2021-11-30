@@ -6,32 +6,32 @@ Below you can find the results of using the above mentioned models as well as an
 
 ## Results
 
-- 1. RandomOverSampler
+- **RandomOverSampler** 
 The Balanced accuracy score is 0.6441747142552103 - 65%
 The Precision score for the high risk is 0.01 - 1% with 0.62 - 62% recall score. The f1 is 0.02 - 2%.
 The precision score for the low risk is 1.00 - 100% with a recall score of 0.68 - 68%. 
 
-- 2. SMOTE
+- **SMOTE**
 The Balanced accuracy score is 0.6482720346801714 - 65%
 The Precision score for the high risk is 0.01 - 1% with 0.66 - 66% recall score. The f1 is 0.02 - 2%.
 The precision score for the low risk is 1.00 - 100% with a recall score of 0.64 - 64%. 
 
-- 3. ClusterCentroids
+- **ClusterCentroids** 
 The Balanced accuracy score is 0.5298576614251584 - 53%
 The Precision score for the high risk is 0.01 - 1% with 0.61 - 61% recall score. The f1 is 0.01 - 1%.
 The precision score for the low risk is 0.99 - 99% with a recall score of 0.45 - 45%. 
 
-- 4. SMOTENN
+- **SMOTENN**
 The Balanced accuracy score is 0.6235037931437366 - 62%
 The Precision score for the high risk is 0.01 - 1% with 0.70 - 70% recall score. The f1 is 0.02 - 2%.
 The precision score for the low risk is 1.00 - 100% with a recall score of 0.55 - 55%. 
 
-- 5. BalancedRandomForestClassifier
+- **BalancedRandomForestClassifier**
 The Balanced accuracy score is 0.7877672625306695- 78%
 The Precision score for the high risk is 0.04 - 4% with 0.67 - 67% recall score. The f1 is 0.07 - 7%.
 The precision score for the low risk is 1.00 - 100% with a recall score of 0.91 - 91%. 
 
-- 6. EasyEnsembleClassifier
+- **EasyEnsembleClassifier**
 The Balanced accuracy score is 0.925427358175101- 92%
 The Precision score for the high risk is 0.07 - 7% with 0.91 - 91% recall score. The f1 is 0.14 - 14%.
 The precision score for the low risk is 1.00 - 100% with a recall score of 0.94 - 94%. 
